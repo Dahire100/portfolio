@@ -125,49 +125,36 @@ const Contact = () => {
             </div>
 
             {/* Contact Form */}
-            <Card className="animate-on-scroll">
-              <CardHeader>
-                <CardTitle className="text-2xl">Send a Message</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <div>
-                    <Input
-                      name="name"
-                      placeholder="Your Name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      className="w-full"
-                    />
-                  </div>
-                  
-                  <div>
-                    <Input
-                      name="email"
-                      type="email"
-                      placeholder="Your Email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      className="w-full"
-                    />
-                  </div>
-                  
-                  <div>
-                    <Textarea
-                      name="message"
-                      placeholder="Your Message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      className="w-full min-h-[120px]"
-                    />
-                  </div>
-                  
-                  <Button type="submit" className="w-full">
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
+<Card className="animate-on-scroll">
+  <CardHeader>
+    <CardTitle className="text-2xl">Send a Message</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <form
+      action="https://formsubmit.co/devendraahire01@gmail.com"
+      method="POST"
+      className="space-y-6"
+    >
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="https://yourdomain.com/thank-you" />
+      <input type="text" name="_honey" style={{ display: "none" }} />
+
+      <div>
+        <Input name="name" placeholder="Your Name" required className="w-full" />
+      </div>
+
+      <div>
+        <Input name="email" type="email" placeholder="Your Email" required className="w-full" />
+      </div>
+
+      <div>
+        <Textarea name="message" placeholder="Your Message" required className="w-full min-h-[120px]" />
+      </div>
+
+      <Button type="submit" className="w-full">Send Message</Button>
+    </form>
+  </CardContent>
+</Card>
           </div>
         </div>
       </div>
