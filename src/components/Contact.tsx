@@ -49,8 +49,8 @@ const Contact = () => {
     {
       icon: <Mail className="h-5 w-5" />,
       label: "Email",
-      value: "devendraahire01@gmail.com",
-      link: "mailto:devendraahire01@gmail.com"
+      value: "devendrarahire01@gmail.com",
+      link: "mailto:devendrarahire01@gmail.com"
     },
     {
       icon: <Phone className="h-5 w-5" />,
@@ -131,7 +131,7 @@ const Contact = () => {
   </CardHeader>
   <CardContent>
     <form
-      action="https://formsubmit.co/devendraahire01@gmail.com"
+      action="https://formsubmit.co/devendrarahire20@gmail.com"
       method="POST"
       className="space-y-6"
     >
