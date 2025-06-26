@@ -19,8 +19,8 @@ const Projects = () => {
       title: "CareerRoad AI | Code",
       description: "Built a full-stack web app that generates personalized career roadmaps, matches job roles, and provides resume feedback. Integrated a dynamic dashboard with an AI chatbot for real-time career support.",
       techStack: ["Next.js", "Tailwind CSS", "Firebase", "ShadCN UI", "TypeScript", "OpenAI"],
-      codeLink: "#",
-      liveLink: "#",
+      codeLink: "https://github.com/Dahire100/CareerRoad_AI",
+      liveLink: "https://career-road-ai.vercel.app/",
       duration: "May 2025 - Jun 2025",
       category: "Full Stack"
     },
@@ -38,7 +38,7 @@ const Projects = () => {
       description: "Developed an intelligent system to detect fake news using NLP, machine learning, and deep learning techniques. Utilized advanced text analysis to classify news as real or fake, addressing misinformation challenges.",
       techStack: ["Python", "NLP", "Machine Learning", "Deep Learning", "TensorFlow", "scikit-learn"],
       codeLink: "https://github.com/Dahire100/Fake_News_Detection",
-      liveLink: "#",
+      // liveLink: "#",
       duration: "Nov 2024 - Dec 2024",
       category: "AI/ML"
     },
